@@ -1,15 +1,9 @@
-var myName = "Jacob Henry";
-var myDrive = "I want to be able to make my website look cool, fix a discord bot I'm making, and have a basis for python";
-var myHobbies = "I like to make music, code, and talk to friends";
-
+let favMovie = "Star Wars Trilogy"
+let favFood = "Pizza"
+const movieDate = new Date("05.25.1977")
+const foodIng = ['flour', 'water', 'cheese', 'toppings']
+alert(foodIng)
+confirm(favMovie + "|" + movieDate)
 console.log(
-  myName
-);
-
-console.log(
-  myDrive
-);
-
-console.log(
-  myHobbies
+  favFood, favMovie, movieDate, foodIng
 );
