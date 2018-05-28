@@ -1,10 +1,27 @@
- Volume in drive C is Windows
- Volume Serial Number is EAC0-6EE5
 
- Directory of C:\Users\Magma\Desktop\Jacob\Coding_Stuff\Classes[Taking]\JavaScript\JavaScript_Class\css
-
-05/21/2018  07:02 PM    <DIR>          .
-05/21/2018  07:02 PM    <DIR>          ..
-05/21/2018  07:02 PM                 0 styles.css
-               1 File(s)              0 bytes
-               2 Dir(s)  1,911,185,723,392 bytes free
+.background{
+  background: linear-gradient(to right,rgba(255,0,0,1), rgba(255,255,0,1));
+  animation-name: background_;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  height: 1000px;
+  padding: 10px
+}
+@keyframes background_ {
+  0%   {background:linear-gradient(to right,rgba(255,0,0,1), rgba(255,255,0,1))}
+  10%  {background:linear-gradient(to right,rgba(255,5,0,1), rgba(255,250,0,1))}
+  20%  {background:linear-gradient(to right,rgba(255,10,0,1), rgba(255,245,0,1))}
+  30%  {background:linear-gradient(to right,rgba(255,15,0,1), rgba(255,240,0,1))}
+  40%  {background:linear-gradient(to right,rgba(255,20,0,1), rgba(255,235,0,1))}
+  50%  {background:linear-gradient(to right,rgba(255,25,0,1), rgba(255,230,0,1))}
+  60%  {background:linear-gradient(to right,rgba(255,20,0,1), rgba(255,235,0,1))}
+  70%  {background:linear-gradient(to right,rgba(255,15,0,1), rgba(255,240,0,1))}
+  80%  {background:linear-gradient(to right,rgba(255,10,0,1), rgba(255,245,0,1))}
+  90%  {background:linear-gradient(to right,rgba(255,5,0,1), rgba(255,250,0,1))}
+  100%  {background:linear-gradient(to right,rgba(255,0,0,1), rgba(255,255,0,1))}
+}
+.title{
+  text-align: center;
+  margin: 20px
+}
