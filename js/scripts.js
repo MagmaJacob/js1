@@ -6,7 +6,7 @@ alert(foodIng)
 confirm(favMovie + "|" + movieDate)
 console.log(
   favFood, favMovie, movieDate, foodIng
-);*/
+);
 
 var firstName = "What is your first name";
 var result = window.prompt(firstName);
@@ -32,4 +32,4 @@ if(result2) {
   console.log(
     "[" + result + "]'s birthday is the same as Star Wars'"
   );
-};
+};*/
