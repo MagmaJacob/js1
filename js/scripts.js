@@ -1,15 +1,29 @@
-var myName = "Jacob Henry";
-var myDrive = "I want to be able to make my website look cool, fix a discord bot I'm making, and have a basis for python";
-var myHobbies = "I like to make music, code, and talk to friends";
+// let inside = true;
+//
+// if(inside) {
+//   console.log(
+//     "I am inside"
+//   );
+// }else {
+//   "I am not inside"
+// }
+//
+// let example2 = inside ? "I am inside" : "I am not inside"
 
-console.log(
-  myName
-);
+// let favThings = ["Rogue One", "sqrt(-1)", true, 2020];
+//
+// favThings.splice(2);
+//
+// console.log(
+//   favThings, "Result of splice"
+// );
 
-console.log(
-  myDrive
-);
+let movie1 = ["Solo", "Han Solo"];
+let movie2 = ["Jumanji: Welcome to the Jungle", "A teenager"];
+let movie3 = ["Lorem", "Lorem Ipsum"];
+let movie4 = ["Lorem 2", "Lorem Ipsum II"];
+let movie5 = ["Lorem 3", "Lorem Ipsum III"];
 
-console.log(
-  myHobbies
-);
+let favMovies = [];
+
+favMovies.push(movie1, movie2, movie3, movie4, movie5)
