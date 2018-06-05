@@ -27,3 +27,9 @@ let movie5 = ["Lorem 3", "Lorem Ipsum III"];
 let favMovies = [];
 
 favMovies.push(movie1, movie2, movie3, movie4, movie5)
+
+alert(favMovies)
+
+favAndLeastFav = [];
+
+favMovies.push(movie1, movie5);
