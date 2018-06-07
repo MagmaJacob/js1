@@ -28,24 +28,33 @@
 //   );
 // }
 
-function dogAge(years) {
-  return years * 7;
-};
-function humanAge(years2) {
-  return ((years2 * 12) * 80) / 2;
-};
-alert(
-  dogAge(
-    parseInt(
-      prompt("How old is your dog in human years", "7")
-    )
-  )
-)
-alert(`you will need ${
-  humanAge(
-    parseInt(
-      prompt("How old are you", "20")
-      prompt("How ")
-    )
-  )
-} dog treats to last you until you are 80`)
+// function dogAge(years) {
+//   return years * 7;
+// };
+// function humanAge(years2) {
+//   return (80 + years2) / 2;
+// };
+// function amountUsed(use) {
+//   return (years + years2 * use) / 3;
+// };
+// alert(
+//   dogAge(
+//     parseInt(
+//       prompt("How old is your dog in human years", "7")
+//     )
+//   )
+// )
+// alert(
+//   humanAge(
+//     parseInt(
+//       prompt("How old are you", "20")
+//     )
+//   )
+// )
+// alert(`you will need ${
+//   amountUsed(
+//     parseInt(
+//       prompt("How much do you use per year", "100")
+//     )
+//   )
+// } dog treats to last you until you are 80`)
