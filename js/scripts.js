@@ -58,3 +58,14 @@
 //     )
 //   )
 // } dog treats to last you until you are 80`)
+let answer = squared(parseInt(prompt("What do you want to square", "2")));
+
+function squared(sqNumber) {
+  if(!isNaN(sqNumber)) {
+    return sqNumber * sqNumber
+  } else {
+    squared(parseInt(prompt("That isn't a number. What do you want to square", "2")));
+    alert(answer)
+};
+
+alert(answer)
