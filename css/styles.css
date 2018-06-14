@@ -24,3 +24,8 @@
   text-align: center;
   margin: 50px
 }
+.blue{
+  background: rgba(0, 25, 255, .9);
+  height: 100px;
+  width: 200px;
+}
